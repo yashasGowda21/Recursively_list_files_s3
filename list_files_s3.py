@@ -12,7 +12,7 @@ my_bucket = s3_resource.Bucket(BUCKET_NAME)
 
 def list_files_s3(my_bucket, file_type):
     """In this method we use boto3 to connect to aws s3 bucket and list all
-    tar files present in s3 under industrial-eval-new
+    tar files present in s3 bucket
     Args:
       my_bucket: Name of s3 bucket
     Returns:
